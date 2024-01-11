@@ -20,6 +20,30 @@
 4. Create a `.env` file based on the provided `.env.example` and configure it with your settings.
 5. Run the development server: `npm run dev`
 
+## Deployment on Cyclic
+Our backend services can be easily deployed on Cyclic. Follow these steps to set up the deployment:
+
+1. **Visit Cyclic:**
+   - Go to [Cyclic website](https://cyclic.sh/) and sign in or create a new account.
+
+2. **Create a New Project:**
+   - Once logged in, create a new project on Cyclic.
+
+3. **Link GitHub Repository:**
+   - During project creation, link your GitHub repository to the Cyclic project.
+   - Cyclic will automatically detect the backend folder and set up the deployment.
+
+4. **Configure Environment Variables:**
+   - Set up any necessary environment variables in the Cyclic dashboard, such as database connection strings or API keys.
+
+5. **Deploy Backend:**
+   - Trigger the deployment process on Cyclic to deploy the backend services.
+   - Cyclic will provide you with a unique URL for your deployed backend.
+
+6. **Access Deployed Backend:**
+   - Visit the provided URL to access your deployed backend.
+   - Explore and interact with the API endpoints as needed.
+
 ## API Documentation
 ### User Routes
 - `/api/users/register` - Register a new user
